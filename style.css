@@ -1,0 +1,162 @@
+body {
+  color: #e5e7eb;
+  margin: 0;
+  padding: 0;
+}
+
+.page-container {
+  width: 100%;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2937;
+  padding: 32px 96px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #f9faf8;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-links {
+  display: flex;
+  gap: 64px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 64px;
+  align-items: center;
+}
+
+.left h1 {
+  margin-top: 0;
+}
+
+.bottom img {
+  width: auto;
+  height: 250px;
+  max-width: 100%;
+}
+
+.sign-up.btn {
+  background: #3882f6;
+  color: #fff;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.hero-main-text {
+  font-size: 36px;
+  font-weight: bold;
+  color: #000;
+  margin-top: 24px;
+}
+
+.hero-cards {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+  text-align: center;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+li img {
+  height: 75px;
+  width: 75px;
+  max-width: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+  border: 2px solid;
+  border-color: #3882f6;
+}
+
+li p {
+  color: #000;
+}
+
+/* Quote section */
+.quote-section {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+  padding: 8rem 24rem;
+}
+
+.quote-section p {
+  text-align: end;
+}
+
+/* cta-section */
+.cta-container {
+  background-color: #3882f6;
+  color: #fff;
+  margin: 48px 72px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14rem;
+}
+
+h3 {
+  margin-bottom: 4px;
+}
+
+h4 {
+  margin-top: 0;
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.right-cta {
+  background-color: transparent;
+  border: solid 1px #fff;
+  font-weight: bold;
+  color: #fff;
+  padding: 6px 24px;
+  border-radius: 4px;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #fff;
+  text-align: center;
+  padding: 32px;
+}
